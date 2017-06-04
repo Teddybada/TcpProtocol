@@ -1,0 +1,17 @@
+A basic simulation of a network protocol (TCP). 
+
+The user sends a password over the network to the server. 
+
+If the password is not correct, the server prompts the user to try again for only one more time.
+If the password is correct, the server will allow the user to send any message. 
+The server has to acknowledge each message that the user send. 
+The message exchange will not stop until the user end the conversation by sending the message, 'Bye'. 
+
+To test the program, first launch TCPServer.java class then launch TCPClient.java
+
+You will then be prompted to enter the server's password.
+You can then follow the instructions from the console.
+
+
+
+ 
